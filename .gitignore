@@ -1,0 +1,17 @@
+# Godot's import cache
+src/.godot/
+
+# Never commit the game itself or anything taken from it
+*.ipa
+Payload/
+src/assets/
+src/scenes/
+src/data/*.json
+!src/data/flows.json
+
+# Exported builds go on the Releases page, not in git
+builds/
+
+__pycache__/
+*.pyc
+.DS_Store

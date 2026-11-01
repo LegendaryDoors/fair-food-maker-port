@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <clipPath id="sq"><rect x="0" y="0" width="1024" height="1024" rx="230"/></clipPath>
+  <clipPath id="cone"><polygon points="352,600 672,600 512,968"/></clipPath>
+  <radialGradient id="glow" cx="50%" cy="52%" r="60%">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<g clip-path="url(#sq)">
+  <rect width="1024" height="1024" fill="#1f9fb3"/>
+  <g fill="#36bccd"><polygon points="512,560 512.0,-540.0 933.0,-456.3"/><polygon points="512,560 1289.8,-217.8 1528.3,139.0"/><polygon points="512,560 1612.0,560.0 1528.3,981.0"/><polygon points="512,560 1289.8,1337.8 933.0,1576.3"/><polygon points="512,560 512.0,1660.0 91.0,1576.3"/><polygon points="512,560 -265.8,1337.8 -504.3,981.0"/><polygon points="512,560 -588.0,560.0 -504.3,139.0"/><polygon points="512,560 -265.8,-217.8 91.0,-456.3"/></g>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <!-- cone -->
+  <g clip-path="url(#cone)">
+    <rect x="300" y="580" width="420" height="420" fill="#fff7ec"/>
+    <g fill="#e63946">
+      <polygon points="300,640 720,560 720,620 300,700"/>
+      <polygon points="300,760 720,680 720,740 300,820"/>
+      <polygon points="300,880 720,800 720,860 300,940"/>
+    </g>
+    <polygon points="512,600 672,600 512,968" fill="#000" opacity="0.08"/>
+  </g>
+  <!-- cotton candy -->
+  <circle cx="530" cy="322" r="150" fill="#e0569a"/>
+<circle cx="390" cy="402" r="135" fill="#e0569a"/>
+<circle cx="670" cy="402" r="135" fill="#e0569a"/>
+<circle cx="448" cy="522" r="140" fill="#e0569a"/>
+<circle cx="612" cy="522" r="140" fill="#e0569a"/>
+<circle cx="326" cy="518" r="105" fill="#e0569a"/>
+<circle cx="726" cy="518" r="105" fill="#e0569a"/>
+<circle cx="530" cy="582" r="120" fill="#e0569a"/>
+  <circle cx="496" cy="282" r="150" fill="#ffc6e2"/>
+<circle cx="356" cy="362" r="135" fill="#ffc6e2"/>
+<circle cx="636" cy="362" r="135" fill="#ffc6e2"/>
+<circle cx="414" cy="482" r="140" fill="#ffc6e2"/>
+<circle cx="578" cy="482" r="140" fill="#ffc6e2"/>
+<circle cx="496" cy="412" r="170" fill="#ffc6e2"/>
+<circle cx="296" cy="482" r="105" fill="#ffc6e2"/>
+<circle cx="696" cy="482" r="105" fill="#ffc6e2"/>
+<circle cx="496" cy="542" r="120" fill="#ffc6e2"/>
+  <circle cx="518" cy="306" r="140" fill="#ff86bf"/>
+<circle cx="378" cy="386" r="125" fill="#ff86bf"/>
+<circle cx="658" cy="386" r="125" fill="#ff86bf"/>
+<circle cx="436" cy="506" r="130" fill="#ff86bf"/>
+<circle cx="600" cy="506" r="130" fill="#ff86bf"/>
+<circle cx="518" cy="436" r="160" fill="#ff86bf"/>
+<circle cx="318" cy="506" r="95" fill="#ff86bf"/>
+<circle cx="718" cy="506" r="95" fill="#ff86bf"/>
+<circle cx="518" cy="566" r="110" fill="#ff86bf"/>
+  <polygon points="196.0,156.0 207.5,202.5 254.0,214.0 207.5,225.5 196.0,272.0 184.5,225.5 138.0,214.0 184.5,202.5" fill="#ffffff"/>
+  <polygon points="838.0,206.0 846.7,241.3 882.0,250.0 846.7,258.7 838.0,294.0 829.3,258.7 794.0,250.0 829.3,241.3" fill="#ffe27a"/>
+  <polygon points="830.0,738.0 840.3,779.7 882.0,790.0 840.3,800.3 830.0,842.0 819.7,800.3 778.0,790.0 819.7,779.7" fill="#ffffff"/>
+  <polygon points="206.0,764.0 213.1,792.9 242.0,800.0 213.1,807.1 206.0,836.0 198.9,807.1 170.0,800.0 198.9,792.9" fill="#ffe27a"/>
+</g>
+</svg>

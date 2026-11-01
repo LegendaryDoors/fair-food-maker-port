@@ -1,0 +1,50 @@
+; Godot 4 project.
+
+config_version=5
+
+[application]
+
+; Also the window title, the macOS Dock name and the Linux window class.
+config/name="Fair Food Maker Port"
+; The port's own icon, for the window, taskbar, .exe and .app.
+config/icon="res://icon.svg"
+; Saves and the imported game files (user://import/) live in one folder:
+; ~/.local/share/, %APPDATA%\ or ~/Library/Application Support/ + this name.
+; Changing it orphans every player's save and imported cache.
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Fair Food Maker Port"
+config/features=PackedStringArray("4.3", "Forward Plus")
+run/main_scene="res://Boot.tscn"
+
+[display]
+
+; Original design space.
+window/size/viewport_width=320
+window/size/viewport_height=480
+window/size/window_width_override=960
+window/size/window_height_override=1440
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+
+; Nearest-neighbour: the art is 1x and upscaling is deliberately deferred.
+textures/canvas_textures/default_texture_filter=0
+; Export-only: the macOS universal/arm64 export refuses to run without it. A
+; no-op otherwise -- every game texture is decoded from the player's IPA at
+; run time (core/Assets.gd), none is a VRAM-compressed import.
+textures/vram_compression/import_etc2_astc=true
+
+[autoload]
+
+Assets="*res://core/Assets.gd"
+Bindings="*res://core/Bindings.gd"
+Audio="*res://core/Audio.gd"
+Nav="*res://core/Nav.gd"
+Defaults="*res://core/Defaults.gd"
+CoinManager="*res://core/CoinManager.gd"
+PrizeManager="*res://core/PrizeManager.gd"
+GameState="*res://core/GameState.gd"
+CoinHUD="*res://core/CoinHUD.gd"
+AppDelegate="*res://core/AppDelegate.gd"
+UIKitButtons="*res://core/UIKitButtons.gd"

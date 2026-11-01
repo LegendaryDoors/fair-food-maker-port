@@ -1,0 +1,148 @@
+{
+ "_comment": "Each food's step order, read from the original binary: StandSelectViewController.standClicked: gives each food's entry screen, and each screen's nextClick: names its successor.",
+ "_source": "FairFoodApp 1.27 (iOS6.0 IPA)",
+ "_verified": true,
+ "_note": "StickSelectViewController is shared: its nextClick: branches to MakeViewController (ms, lsu), ccMachineViewController (cc), or cdBatterCoatingViewController (cd). It is expanded inline per food below.",
+
+ "ms": {
+  "food": "Milkshake",
+  "steps": [
+   "msSelectFlavorViewController",
+   "msScoopViewController",
+   "msFruitViewController",
+   "msSelectSyrupViewController",
+   "msBlenderViewController",
+   "StickSelectViewController"
+  ]
+ },
+ "lsu": {
+  "food": "Lemon Shake Up",
+  "steps": [
+   "lsuPourSugarViewController",
+   "lsuSliceFruitViewController",
+   "lsuSqueezeFruitViewController",
+   "lsuPourIceViewController",
+   "lsuPourWaterViewController",
+   "StickSelectViewController"
+  ]
+ },
+ "sc": {
+  "food": "Snow Cone",
+  "steps": [
+   "scCrushIceViewController",
+   "scScoopIceViewController",
+   "scSelectCupShapeViewController",
+   "scPourSyrupViewController"
+  ]
+ },
+ "cc": {
+  "food": "Cotton Candy",
+  "steps": [
+   "ccSugarPickerViewController",
+   "StickSelectViewController",
+   "ccMachineViewController"
+  ]
+ },
+ "cd": {
+  "food": "Corn Dog",
+  "steps": [
+   "cdBatterSelectViewController",
+   "cdMixIngredientsViewController",
+   "cdStirViewController",
+   "cdRollDogViewController",
+   "StickSelectViewController",
+   "cdBatterCoatingViewController",
+   "cdFryDogViewController"
+  ]
+ },
+ "fc": {
+  "food": "Funnel Cake",
+  "steps": [
+   "fcBatterSelectVC",
+   "fcMixBatterVC",
+   "fcStirViewController",
+   "fcPourBatterVC",
+   "fcFryBatterVC",
+   "fcSiftSugarVC"
+  ]
+ },
+ "ip": {
+  "food": "Ice Pop",
+  "steps": [
+   "ipSelectStickShapeViewController",
+   "ipFlavorViewController",
+   "ipPourViewController",
+   "ipSelectExtraViewController",
+   "ipFreezerViewController"
+  ]
+ },
+ "kc": {
+  "food": "Kettle Corn",
+  "steps": [
+   "kcPourOilViewController",
+   "kcShakeToFlattenKernelsViewController",
+   "kcSelectSugarViewController",
+   "kcShakeToColorKernelsViewController"
+  ]
+ },
+ "ca": {
+  "food": "Candy Apple",
+  "steps": [
+   "caSelectApple",
+   "caCleanDirt",
+   "caSelectStick",
+   "caInsertStick",
+   "caSelectChocolate",
+   "caStirIngredients",
+   "caDipApple"
+  ]
+ },
+ "ccb": {
+  "food": "Chocolate Covered Banana",
+  "steps": [
+   "ccbPeelBananaViewController",
+   "ccbSelectStickViewController",
+   "ccbInsertStick",
+   "ccbSelectChocolate",
+   "ccbStirIngredients",
+   "ccbDipBanana",
+   "ccbFreezerViewController"
+  ]
+ },
+ "cff": {
+  "food": "Curly Fries",
+  "steps": [
+   "cffPeelViewController",
+   "cffSelectSlicer",
+   "cffAddWaterViewController",
+   "cffPatDryViewController",
+   "cffFrySliceViewController",
+   "cffDustSalt"
+  ]
+ },
+ "dic": {
+  "food": "Donut Ice Cream Sandwich",
+  "steps": [
+   "dicMixIngredientsViewController",
+   "dicStirViewController",
+   "dicRollCutViewController",
+   "dicDonutFryViewController",
+   "dicDonutSliceViewController",
+   "dicScoopIceCreamViewController",
+   "dicFrostingViewController"
+  ]
+ },
+
+ "_midway": {
+  "food": "Midway games (single screen each)",
+  "steps": [
+   "bpTossDartVC",
+   "ftTossBallVC",
+   "ffTossFrogVC",
+   "fbtThrowballVC",
+   "mb_ThrowBallVC",
+   "wm_hitmole",
+   "wsRaceVC"
+  ]
+ }
+}
